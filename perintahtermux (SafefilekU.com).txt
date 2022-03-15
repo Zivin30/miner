@@ -1,0 +1,15 @@
+==============
+Perintah Termux
+==============
+
+Module PHP
+==============
+$ pkg update && pkg upgrade
+$ pkg install php
+$ pkg pkg install curl
+$ pkg install tesseract
+$ pkg install imagemagick
+$ termux-setup-storage
+
+Jangan lupa subscribe channel HAFIZ-NET
+website : www.hafiz-net.my.id
