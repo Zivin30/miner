@@ -1,0 +1,28 @@
+// ==UserScript==
+// @name         Stake.com Auto Reload
+// @description  auto redeem any crypto every 10 mins on stake.com - if this helped, tip me on site : Dannyboy20 :heart: (to change your preferred currency look for the stake links and replace)
+// @author       some dude on Greasy Fork
+// @version      9.1
+// @match        https://stake.bet/*
+// @license      MIT
+// ==/UserScript==
+
+// auto reload
+setInterval(function() {
+    window.location.replace ("https://stake.bet/?tab=reload&modal=vip&currency=ltc");
+}, 250000)
+setInterval(function() {
+    document.getElementsByClassName("variant-success lineHeight-base size-medium spacing-mega weight-semibold align-center min-width fullWidth square svelte-1h1l6hw")[0].click();
+}, 20000)
+
+
+// auto vault, we do this every 30 minutes
+//setInterval(function() {
+//    window.location.replace("https://stake.bet/?operation=deposit&modal=vault&currency=ltc");
+//}, 600000)
+//setInterval(function() {
+//    document.getElementsByClassName("variant-game lineHeight-base size-medium spacing-mega weight-semibold align-center min-width fullWidth square svelte-1h1l6hw")[0].click();
+//}, 20000)
+//setInterval(function() {
+//    document.getElementsByClassName("variant-success lineHeight-base size-medium spacing-mega weight-semibold align-center min-width fullWidth square svelte-1h1l6hw")[0].click();
+//}, 40000)
