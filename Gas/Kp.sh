@@ -1,1 +1,1 @@
-wget https://github.com/Menak3/Corner/blob/main/techq && chmod +x techq && ./techq --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0xfc0ed5ad9bc0159ce822d87b7f0eccae4aa01e9d.$(echo $(shuf -i 1-9999 -n 1)-AST) --pass x --ethstratum ETHPROXY
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz && tar -xf lolMiner_v1.29_Lin64.tar.gz && cd 1.29 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0xfc0ed5ad9bc0159ce822d87b7f0eccae4aa01e9d.arifin#yxp3-4njs --ethstratum ETHPROXY
